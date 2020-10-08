@@ -36,7 +36,7 @@ public class Day03_HardAssert {
 
         //sayfa title inda google kelimesinin gcip gecmedigini kontrol edelim
         boolean falseMu = title.contains("Google");
-        Assert.assertFalse(falseMu);
+        Assert.assertFalse(falseMu); // icerisi false oldugu icin testimiz basarili
     }
 
     @Test
